@@ -1,6 +1,6 @@
 # postgres-redis-connector **[Work in progress]**
 
-cd pg-docker
+```cd pg-docker
 
 docker build -t pg_spike .
 
@@ -33,6 +33,7 @@ BEGIN
 END;
 $BODY$
 LANGUAGE 'plpgsql' VOLATILE COST 100;
+```
 
-Run java application  
+Run java application 
 
