@@ -1,4 +1,4 @@
-# postgres-redis-connector
+# postgres-redis-connector **[Work in progress]**
 
 cd pg-docker
 
@@ -36,4 +36,3 @@ LANGUAGE 'plpgsql' VOLATILE COST 100;
 
 Run java application  
 
-**[Work in progress]**
